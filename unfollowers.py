@@ -10,12 +10,12 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
 
 # --- Konfigurasi (GANTI DENGAN DATA ANDA & PATH WEBDRIVER) ---
-INSTAGRAM_USERNAME = "muhammad_furqan_hakim"
+INSTAGRAM_USERNAME = "...."
 # PERINGATAN KERAS: Jangan pernah menyimpan password langsung di kode untuk aplikasi nyata!
-INSTAGRAM_PASSWORD = "200696Allah"
+INSTAGRAM_PASSWORD = "..."
 # Ganti dengan path tempat Anda menyimpan chromedriver.exe atau geckodriver.exe
 #WEBDRIVER_PATH = '/path/to/your/chromedriver' # Contoh untuk Chrome di Linux/Mac
-WEBDRIVER_PATH = 'C:/Users/Admin/Documents/python code/chromedriver-win64/chromedriver.exe'
+WEBDRIVER_PATH = 'C:/Users/Admin/Documents/python code/chromedriver-win64/chromedriver.exe' #contoh untuk windows
 # Koordinat (SANGAT TIDAK DIREKOMENDASIKAN, MUDAH GAGAL)
 FOLLOWING_LIST_X = 934
 FOLLOWING_LIST_Y = 194
